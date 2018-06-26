@@ -1,6 +1,10 @@
 # Callback-Firebase
 Repositorio donde se muestra la creación de un callback a Firebase
 
+antes de comenzar a enviar datos a Firebase primeramente realizaremos el ejemplo de temperatura en nuestro devkit
+
+([-Ejemplo de temperatura](https://github.com/NXTIoT/NXTIoT_DEVKIT#sensor-de-temperatura))
+
 Google Firebase
 --------------
 En esta sección realizaremos un Callback hacia Firebase la API de Google utilizando el ejemplo del sensor de temperatura y se enviara la información al Realtime Database. Lo que necesitamos es:
