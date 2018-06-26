@@ -5,7 +5,7 @@ Ejemplo de temperatura
 ------
 antes de comenzar a enviar datos a Firebase primeramente realizaremos el ejemplo de temperatura en nuestro devkit
 
-(-Ejemplo de temperatura(https://github.com/NXTIoT/NXTIoT_DEVKIT#sensor-de-temperatura))
+[-Ejemplo de temperatura](https://github.com/NXTIoT/NXTIoT_DEVKIT#sensor-de-temperatura)
 
 Google Firebase
 --------------
