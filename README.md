@@ -3,7 +3,7 @@ Repositorio donde se muestra la creación de un callback a Firebase
 
 Ejemplo de temperatura
 ------
-antes de comenzar a enviar datos a Firebase primeramente realizaremos el ejemplo de temperatura en nuestro devkit
+antes de comenzar a enviar datos a Firebase primeramente los obtenemos mediante el ejemplo de temperatura en nuestro devkit
 
 [-Ejemplo de temperatura](https://github.com/NXTIoT/NXTIoT_DEVKIT#sensor-de-temperatura)
 
