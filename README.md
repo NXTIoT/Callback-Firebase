@@ -17,7 +17,41 @@ Le damos un nombre a nuestro proyecto, seleccionamos el país de donde nos encon
 
 Una vez creado el proyecto hacemos click en Desarrollo/Database y en la sección Realtime Database damos click en Empezar
 
-![firebase](https://raw.githubusercontent.com/NXTIoT/Callback-Firebase/master/f2.png)
+![firebase](https://raw.githubusercontent.com/NXTIoT/Callback-Firebase/master/f3.png)
 
+Seleccionamos Empezar con el modo de prueba para que nos permita escribir sobre el Realtime Database sin ningún problema, estas reglas pueden modificarse posteriormente, hacemos click en Habilitar
+
+
+![firebase](https://raw.githubusercontent.com/NXTIoT/Callback-Firebase/master/f4.png)
+
+Una vez creada el Realtime Database copiamos la url con el formato https:// [PROJECT_ID]. firebaseio.com/ que aparece en la parte superior
+
+![firebase](https://raw.githubusercontent.com/NXTIoT/Callback-Firebase/master/f5.png)
+
+Configuración del Callback
+----------
+Regresamos al backend de sigfox para crear el Callback. Nos vamos a nuestro dispositivo y damos click en el "Device Type"
+
+![firebase](https://raw.githubusercontent.com/NXTIoT/NXTIoT_DEVKIT/master/images/azure8.png)
+
+Dentro de la sección 'Callbacks' damos click en 'New', seguido daremos click en 'Custom Callback'
+
+![firebase](https://raw.githubusercontent.com/Iotnet/IoTnet_DEVKIT/master/images/callback.png)
+
+En la ventana que nos aparece pegamos la url que copiamos de la consola de firebase en la sección Url pattern y configuraremos nuestro callback de la siguiente manera:
+
+![firebase](https://raw.githubusercontent.com/NXTIoT/Callback-Firebase/master/f6.png)
+
+Damos Click en "Ok" y con eso queda creado nuestro Callback. Ahora verificaremos que no exista ningun error. Damos click en "Associated devices" y hacemos click en el ID de nuestro Devkit
+
+![firebase](https://raw.githubusercontent.com/NXTIoT/Callback-Firebase/master/f7.png)
+
+y en el panel izquierdo nos vamos a "Messages" para visualizar el estatus del Callback. Presionamos el boton de nuestro Devkit para mandar un mensaje. Si todo fue correctamente configurado la flecha en Callbacks ahora permanecerá en verde como se muestra en la imagen
+
+![firebase](https://raw.githubusercontent.com/NXTIoT/Callback-Firebase/master/f8.png)
+
+Regresamos al Realtime Database y ya obtenemos el dato recibido por el backend
+
+![firebase](https://raw.githubusercontent.com/NXTIoT/Callback-Firebase/master/f9.png)
 
 
